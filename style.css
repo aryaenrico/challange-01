@@ -1,0 +1,61 @@
+.background{
+      background-color: #F1F3FF;
+     
+}
+
+.font{
+      font-family:  Helvetica, sans-serif;
+      font-size: 18px;
+}
+
+.nav-font{
+      color: black;
+      font-weight: 400;
+      font-size: 14px;
+}
+button.nav-font.font{
+      color: white;
+}
+
+.btn-logo{
+      width: 100px;
+      height: 34px;
+}
+
+
+.banner-text{
+      margin-top: 90px;
+      font-size: 36px;
+      font-weight: bold;
+      
+}
+
+
+.gambar{
+     margin-left: auto;
+      
+}
+
+.section-header button{
+      width: 200px;
+      font-size: 14px;
+      font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+      .ukuran_gambar{
+            width: 400px;
+            height: 250px;
+      }
+
+      .gambar{
+            margin-top: 24px;
+            display: flex;
+            justify-content: center;
+           
+         
+      }
+
+    }

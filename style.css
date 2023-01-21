@@ -1,3 +1,7 @@
+.html{
+      background-color: #E5E5E5;;
+}
+
 .background{
       background-color: #F1F3FF;
      
@@ -20,6 +24,12 @@ button.nav-font.font{
 .btn-logo{
       width: 100px;
       height: 34px;
+      background-color: #0D28A6;
+}
+
+.btn-second{
+      background-color: #5CB85F;
+      color: white;
 }
 
 
@@ -41,6 +51,41 @@ button.nav-font.font{
       font-size: 14px;
       font-weight: 700;
 }
+.our-section{
+      margin-top: 104px;     
+}
+.img-service{
+      width: 459px;
+      height: 428x;
+}
+
+.section-info p{
+      font-family:  Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      margin-top: 24px;
+}
+.section-info h2{
+      font-family:  Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+}
+
+.section-info-2 p{
+      font-family:  Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      display: inline-block;
+      margin-left: 16px;
+
+}
+
+
+
+.contoh{
+      border: 2px solid orange;
+}
+
 
 
 
@@ -56,6 +101,22 @@ button.nav-font.font{
             justify-content: center;
            
          
+      }
+
+      .section-header{
+            margin-top: -50px;
+      }
+
+      .section-header h2,p{
+            padding: 10px;
+      }
+
+      .section-header button{
+            margin-left: 5px;
+      }
+
+      .our-section{
+            margin-top: 50px;
       }
 
     }

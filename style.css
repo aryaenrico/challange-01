@@ -57,6 +57,7 @@ button.nav-font.font{
 .img-service{
       width: 459px;
       height: 428x;
+      padding-left: 30px;
 }
 
 .section-info p{
@@ -77,15 +78,36 @@ button.nav-font.font{
       font-weight: 300;
       display: inline-block;
       margin-left: 16px;
+      margin-top: -10px;
 
 }
 
-
-
-.contoh{
-      border: 2px solid orange;
+.why-ous{
+      margin-top: 100px;
+     
+     
+}
+.why-ous h2{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+}
+.why-ous p{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
 }
 
+.card-why-us{
+      max-width: 300px;
+      min-height: 280px;
+      padding: 10px;
+}
+.card-body h6{
+      margin-top: 16px
+}
 
 
 
@@ -117,6 +139,9 @@ button.nav-font.font{
 
       .our-section{
             margin-top: 50px;
+      }
+      .section-info{
+            margin-top: 30px;
       }
 
     }

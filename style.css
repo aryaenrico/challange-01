@@ -109,7 +109,149 @@ button.nav-font.font{
       margin-top: 16px
 }
 
+.testimonial-heading{
+      margin-top: 50px;
+}
+.testimonial-heading h2{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+}
+.testimonial-heading p{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+}
+.testimonial-content{
+      margin-top: 40px;
+}
+.card-testimonial{
+      min-width: 200px;
+      min-height: 270px;
+      background: #F1F3FF;
 
+}
+
+.img-testimonial{
+      margin-top: auto;
+      margin-bottom: auto;
+}
+.testimonial-content-card{
+      padding-top: 50px;
+      margin-left: 46px;
+}
+.testimonial-content-card p{
+      margin-top: 8px;
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+}
+.testimonial-content-card p.user{
+      font-family: 'Helvetica';
+      font-weight: bold;
+      font-size: 14px;
+}
+
+.btn-circle-previous {
+      width: 30px;
+      height: 30px;
+      padding: 6px 0px;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 1.42857;
+      background-image: url(img/Left-button.png);
+      margin-right: 24px;
+      
+  }
+
+  .btn-circle-next {
+      width: 30px;
+      height: 30px;
+      padding: 6px 0px;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 1.42857;
+      background-image: url(img/Right-button.png);
+   
+  }
+
+  .getting-started{
+      margin-top: 100px;
+      max-width: 1200px;
+      min-height: 350px;
+      background-color:#0D28A6;
+      ;
+      padding-top: 62px;
+      
+  }
+  .getting-started h2{
+      color: white;
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+  }
+
+  .getting-started p{
+      color: white;
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      margin-top: 20px;
+  }
+
+  .getting-started button{
+      background-color: #5CB85F;
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: white;
+      padding: 8px 10px 8px 12px;
+      width: 160px;
+      height: 36px;
+      margin-top: 32px;
+
+  }
+
+
+  .section-faq{
+      margin-top: 104px;
+  }
+
+  .section-faq h2{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      
+  }
+
+  .section-faq p{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+  }
+  .accordion-item button{
+      font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+  }
+ 
+  .accordion-section{
+      padding-left: 100px;
+  }
+
+  .accordion-text{
+      margin-left: -100px;
+  }
 
 @media only screen and (max-width: 600px) {
       .ukuran_gambar{
@@ -143,5 +285,19 @@ button.nav-font.font{
       .section-info{
             margin-top: 30px;
       }
+
+      .getting-started{
+            margin-top: 100px;
+            min-width: 400px;
+            min-height: 320px;
+            background-color:#0D28A6;
+            ;
+            padding-top: 62px;
+            
+        }
+
+        .getting-started button{
+            margin-top: 12px;
+        }
 
     }

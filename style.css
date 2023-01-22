@@ -240,9 +240,24 @@ button.nav-font.font{
   }
   .accordion-item button{
       font-family: 'Helvetica';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+  }
+
+  .section-footer{
+      margin-top: 150px;
+      
+  }
+  .section-footer p{
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+  }
+  
+  .footer-img{
+      margin-right: 16px;
   }
  
   .accordion-section{
@@ -251,6 +266,13 @@ font-size: 14px;
 
   .accordion-text{
       margin-left: -100px;
+  }
+
+  .btn-footer{
+      background-color: #0D28A6;
+      width: 100px;
+      height: 34px;
+      
   }
 
 @media only screen and (max-width: 600px) {
@@ -298,6 +320,14 @@ font-size: 14px;
 
         .getting-started button{
             margin-top: 12px;
+        }
+
+        .section-footer{
+            margin-top: 60px;
+            
+        }
+        .copy-right-footer{
+            margin-top: 16px;
         }
 
     }

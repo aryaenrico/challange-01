@@ -1,3 +1,6 @@
+*{
+      box-sizing: border-box;
+}
 .html{
       background-color: #E5E5E5;;
 }
@@ -83,7 +86,7 @@ button.nav-font.font{
 }
 
 .why-ous{
-      margin-top: 100px;
+      margin-top: 120px;
      
      
 }
@@ -128,15 +131,21 @@ button.nav-font.font{
       margin-top: 40px;
 }
 .card-testimonial{
-      min-width: 200px;
+      min-width: 600px;
       min-height: 270px;
       background: #F1F3FF;
 
 }
 
+.section-card{
+      margin-left: auto;
+      margin-right: auto;
+}
+
 .img-testimonial{
       margin-top: auto;
       margin-bottom: auto;
+      padding-left: 30px;
 }
 .testimonial-content-card{
       padding-top: 50px;
@@ -219,6 +228,11 @@ button.nav-font.font{
 
   }
 
+  .card-body-testimonial{
+      display: flex;
+      flex-direction: row;
+  }
+
 
   .section-faq{
       margin-top: 104px;
@@ -272,6 +286,11 @@ button.nav-font.font{
       background-color: #0D28A6;
       width: 100px;
       height: 34px;
+      
+  }
+  .img-container{
+      display: flex;
+      align-items: flex-end;
       
   }
 
@@ -329,5 +348,25 @@ button.nav-font.font{
         .copy-right-footer{
             margin-top: 16px;
         }
+
+        .card-body-testimonial{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-body-testimonial p{
+            text-align: justify;
+        }
+
+       .img-container{
+            display: flex;
+            padding-right: 100px;
+       }
+       
+       .img-testimonial{
+            margin-left: auto;
+            margin-right: auto;
+         
+      }
 
     }

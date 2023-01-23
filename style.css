@@ -10,6 +10,8 @@
      
 }
 
+
+
 .font{
       font-family:  Helvetica, sans-serif;
       font-size: 18px;
@@ -361,6 +363,7 @@ button.nav-font.font{
        .img-container{
             display: flex;
             padding-right: 100px;
+            padding-top: 20px;
        }
        
        .img-testimonial{

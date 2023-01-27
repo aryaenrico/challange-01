@@ -1,5 +1,6 @@
 *{
       box-sizing: border-box;
+      font-family:  Helvetica, sans-serif;
 }
 .html{
       background-color: #E5E5E5;;
@@ -12,8 +13,7 @@
 
 
 
-.font{
-      font-family:  Helvetica, sans-serif;
+.font{  
       font-size: 18px;
 }
 
@@ -35,8 +35,29 @@ button.nav-font.font{
 .btn-second{
       background-color: #5CB85F;
       color: white;
+      width: 140px;
+      height: 36px;
+      padding: 8px 12px;
+
 }
 
+.accordion-space{
+      border: 2px ridge grey !important;
+}
+
+.btn-border{
+      border-radius: 2px;
+}
+.btn-register{
+      background-color: #5CB85F;
+}
+
+/* section header */
+.section-header button{  
+      font-size: 14px;
+      font-weight: 700;
+      width: 150px;
+}
 
 .banner-text{
       margin-top: 90px;
@@ -46,15 +67,10 @@ button.nav-font.font{
 }
 
 
+
 .gambar{
      margin-left: auto;
       
-}
-
-.section-header button{
-      width: 200px;
-      font-size: 14px;
-      font-weight: 700;
 }
 .our-section{
       margin-top: 104px;     
@@ -105,6 +121,10 @@ button.nav-font.font{
       font-size: 14px;
 }
 
+.card-body{
+      min-width: 268px;
+      min-height: 196px;
+}
 .card-why-us{
       max-width: 300px;
       min-height: 280px;
@@ -223,10 +243,10 @@ button.nav-font.font{
       font-weight: 700;
       font-size: 14px;
       color: white;
-      padding: 8px 10px 8px 12px;
+      padding: 8px  12px;
       width: 160px;
       height: 36px;
-      margin-top: 32px;
+      margin-top: 12px;
 
   }
 
@@ -296,6 +316,10 @@ button.nav-font.font{
       
   }
 
+  .footer-bold p{
+      font-weight: 600;
+  }
+
 @media only screen and (max-width: 600px) {
       .ukuran_gambar{
             width: 400px;
@@ -331,13 +355,21 @@ button.nav-font.font{
 
       .getting-started{
             margin-top: 100px;
-            min-width: 400px;
-            min-height: 320px;
-            background-color:#0D28A6;
-            ;
+            max-width: 450px;
+            min-height: 370px;
+            background-color:#0D28A6;;
             padding-top: 62px;
+            border-radius: 30px;
             
         }
+        .card-testimonial{
+            min-width: 300px;
+        }
+
+        .section-card{
+            margin-left: 0;
+            margin-right: 0;
+      }
 
         .getting-started button{
             margin-top: 12px;
@@ -347,29 +379,49 @@ button.nav-font.font{
             margin-top: 60px;
             
         }
-        .copy-right-footer{
-            margin-top: 16px;
-        }
 
         .card-body-testimonial{
             display: flex;
             flex-direction: column;
+            
+      
+      }
+        .copy-right-footer{
+            margin-top: 16px;
         }
 
+        
+
         .card-body-testimonial p{
-            text-align: justify;
+            text-align: center;
+            align-items: center;
+            border: 2px solid brown;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            
         }
 
        .img-container{
             display: flex;
-            padding-right: 100px;
-            padding-top: 20px;
+            justify-content: center;
+            border: 2px solid black;
+            
        }
-       
-       .img-testimonial{
-            margin-left: auto;
-            margin-right: auto;
-         
+
+       .section-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 3px solid yellow;
+       }
+
+       .card-testimonial{
+            min-width: 300px;
+            min-height: 270px;
+            background: #F1F3FF;
+      
       }
+       
+      
 
     }

@@ -69,7 +69,9 @@ button.nav-font.font{
 
 
 .gambar{
-     margin-left: auto;
+     
+     width: 100%;
+     border: 3px solid yellow;
       
 }
 .our-section{
@@ -318,6 +320,17 @@ button.nav-font.font{
 
   .footer-bold p{
       font-weight: 600;
+  }
+  .ukuran_gambar{
+      width: 100%;
+      height: auto;
+      padding-left: 60px;
+     
+      
+  }
+
+  .image-service{
+      max-width: 100%;
   }
 
 @media only screen and (max-width: 600px) {

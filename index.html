@@ -55,10 +55,10 @@
 
   <header>
     <div class="background pt-3 section-header  ">
-      <div class="container-fluid" style="border: 3px solid red;">
+      <div class="container-fluid">
         <div class="row justify-content-around">
 
-          <div class=" col-12 col-lg-7  d-flex banner justify-content-center">
+          <div class=" col-12 col-lg-7  d-flex banner justify-content-lg-center ms-sm-5 ms-md-0">
             <article>
               <h2 class="banner-text font">
                 Sewa & Rental Mobil Terbaik di <br>
@@ -71,7 +71,7 @@
               <button type="button" class=" btn font btn-second btn-border">Mulai Sewa Mobil</button>
             </article>
           </div>
-          <div class="col-12 col-lg-5 align-items-end flex-column  mt-auto container-img" style="border: 3px solid green;">
+          <div class="col-12 col-lg-5 align-items-end flex-column  mt-auto container-img">
             <div class="gambar ms-3" >
   
               <img src="img/img_car.png" alt="gambar mobil" class="ukuran_gambar">
@@ -204,7 +204,10 @@
                         <img src="img/img_photo_2.png" alt="testimonial-photo" class="img-testimonial">
                       </div>
                       <div class="testimonial-content-card">
-                        <img src="img/Rate.png" alt="">
+                        <div class="star d-flex justify-content-center">
+                          <img src="img/Rate.png" alt="" >
+                        </div>
+                        
                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum <br> dolor sit
                           amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum <br> dolor sit amet, consectetur
                           adipiscing elit, sed do eiusmod”</p>
@@ -222,7 +225,9 @@
                         <img src="img/img_photo_2.png" alt="testimonial-photo" class="img-testimonial">
                       </div>
                       <div class="testimonial-content-card">
-                        <img src="img/Rate.png" alt="">
+                        <div class="star d-flex justify-content-center">
+                          <img src="img/Rate.png" alt="" >
+                        </div>
                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum <br> dolor sit
                           amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum <br> dolor sit amet, consectetur
                           adipiscing elit, sed do eiusmod”</p>
@@ -241,7 +246,9 @@
                         <img src="img/img_photo_2.png" alt="testimonial-photo" class="img-testimonial">
                       </div>
                       <div class="testimonial-content-card">
-                        <img src="img/Rate.png" alt="">
+                        <div class="star d-flex justify-content-center">
+                          <img src="img/Rate.png" alt="" >
+                        </div>
                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum <br> dolor sit
                           amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum <br> dolor sit amet, consectetur
                           adipiscing elit, sed do eiusmod”</p>
@@ -255,8 +262,19 @@
                  
             </div>
             <div class="swiper-navigation">
-                <button class="swiper-prev btn-circle-previous"></button>
-                <button class="swiper-next btn-circle-next"></button>
+              <button type="button" class="btn btn-default btn-circle-previous swiper-prev" class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span> -->
+          </button>
+
+          <button type="button" class="btn btn-default btn-circle-next swiper-next" class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span> -->
+
+          </button>
+               
             </div>
         </div>
     </div>
@@ -399,20 +417,20 @@
   <footer>
     <div class="container section-footer">
       <div class="row">
-        <div class="col-lg-4 ">
+        <div class="col-md-8 col-lg-4 ">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
           <p>binarcarrental@gmail.com</p>
           <p>081-233-334-808</p>
 
         </div>
-        <div class="col-lg-2 footer-bold ">
+        <div class="col-md-4 col-lg-2 footer-bold ">
           <p>Our Services</p>
           <p>Why Us</p>
           <p>Testimonial</p>
           <p>FAQ</p>
 
         </div>
-        <div class="col-lg-4 ">
+        <div class="col-md-8 col-lg-4 ">
           <p>Connect with us</p>
           <div class="d-flex ">
             <img src="img/icon_facebook.png" alt="facebook" class="footer-img">
@@ -424,7 +442,7 @@
 
         </div>
 
-        <div class="col-lg-2 copy-right-footer">
+        <div class="col-md-4 col-lg-2 copy-right-footer">
           <p>Copyright Binar 2022</p>
           <button class=" btn-footer btn-border">&nbsp;</button>
         </div>

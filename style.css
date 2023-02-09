@@ -71,7 +71,7 @@ button.nav-font.font{
 
 .gambar{
      width: 100%;
-     border: 3px solid yellow;
+     
       
 }
 .our-section{
@@ -192,11 +192,14 @@ button.nav-font.font{
       width: 30px;
       height: 30px;
       padding: 6px 0px;
-      border-radius: 15px;
+      border-radius: 12px;
       text-align: center;
       font-size: 12px;
-      line-height: 1.42857;
-      background-image: url(img/Left-button.png);
+     background-image: url('img/Left-button.png');
+     
+  
+      
+     
       margin-right: 24px;
       
   }
@@ -208,8 +211,11 @@ button.nav-font.font{
       border-radius: 15px;
       text-align: center;
       font-size: 12px;
-      line-height: 1.42857;
-      background-image: url(img/Right-button.png);
+      background-image: url('img/Right-button.png');
+     
+      font-size: 20px;
+     
+     
    
   }
 
@@ -364,20 +370,18 @@ button.nav-font.font{
       }
   }
 
-  /* @media only screen and (min-width: 576px) and (max-width:601){
-      .section-card{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            border: 3px solid purple;
-       }
-  } */
+  
 
 @media only screen and (max-width: 600px) {
       .ukuran_gambar{
             width: 100%;
             height: auto;
             padding-left: 10px;
+        }
+
+        .star{
+            border: 3px solid yellow;
+            width: 100%;
         }
 
         .testimonial-content-card{
@@ -422,7 +426,7 @@ button.nav-font.font{
         .section-card{
             margin-left: 0;
             margin-right: 0;
-            border: 3px solid purple;
+           
       }
 
         .getting-started button{
@@ -449,7 +453,7 @@ button.nav-font.font{
         .card-body-testimonial p{
             text-align: center;
             align-items: center;
-            border: 2px solid brown;
+           
             margin-left: auto !important;
             margin-right: auto !important;
             
@@ -458,7 +462,8 @@ button.nav-font.font{
        .img-container{
             display: flex;
             justify-content: center;
-            border: 2px solid black;
+            border: 3px solid salmon;
+           
             
        }
 
@@ -467,7 +472,7 @@ button.nav-font.font{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            border: 3px solid purple;
+          
             margin-left: auto;
             margin-right: auto;
        }
@@ -491,7 +496,7 @@ button.nav-font.font{
             margin-left: 5px;
             margin-top: -10px;
             font-size: 14px;
-            border: 3px solid red;
+            
       
       }     
 }
@@ -504,7 +509,7 @@ button.nav-font.font{
             margin-left: 5px;
             margin-top: -10px;
             font-size: 13px;
-            border: 3px solid red;
+           
       
       }     
 }
@@ -516,7 +521,7 @@ button.nav-font.font{
             margin-top: 10px;
             font-size: 36px;
             font-weight: bold;
-            border: 3px solid orange;
+           
             
       }
 
@@ -536,7 +541,7 @@ button.nav-font.font{
 @media only screen and (min-width: 991px) and (max-width :1200px){
      .gambar{
       margin-top: 10px;
-      border: 3px solid orangered;
+    
      }
      .ukuran_gambar{
       width: 100%;
@@ -548,7 +553,7 @@ button.nav-font.font{
       margin-left: 5px;
       margin-top: -10px;
       font-size: 14px;
-      border: 3px solid red;
+      
 
 }   
 }

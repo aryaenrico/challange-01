@@ -370,6 +370,11 @@ button.nav-font.font{
       }
   }
 
+  @media screen and (max-width:321px) {
+      .card-testimonial{
+            max-width: 200px;
+        }
+  }
   
 
 @media only screen and (max-width: 600px) {
@@ -380,8 +385,8 @@ button.nav-font.font{
         }
 
         .star{
-            border: 3px solid yellow;
-            width: 100%;
+            display: flex;
+            justify-content: center;
         }
 
         .testimonial-content-card{
@@ -419,9 +424,9 @@ button.nav-font.font{
             border-radius: 30px;
             
         }
-        .card-testimonial{
+        /* .card-testimonial{
             min-width: 300px;
-        }
+        } */
 
         .section-card{
             margin-left: 0;
@@ -462,9 +467,6 @@ button.nav-font.font{
        .img-container{
             display: flex;
             justify-content: center;
-            border: 3px solid salmon;
-           
-            
        }
 
        .section-card{

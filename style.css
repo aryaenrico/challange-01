@@ -331,12 +331,26 @@ button.nav-font.font{
       max-width: 100%;
   }
 
+  /* @media only screen and (min-width: 576px) and (max-width:601){
+      .section-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 3px solid purple;
+       }
+  } */
+
 @media only screen and (max-width: 600px) {
       .ukuran_gambar{
             width: 100%;
             height: auto;
             padding-left: 10px;
         }
+
+        .testimonial-content-card{
+            padding-top: 50px;
+            margin: 0 auto;
+      }
 
      
 
@@ -375,6 +389,7 @@ button.nav-font.font{
         .section-card{
             margin-left: 0;
             margin-right: 0;
+            border: 3px solid purple;
       }
 
         .getting-started button{
@@ -418,7 +433,10 @@ button.nav-font.font{
             display: flex;
             flex-direction: column;
             justify-content: center;
-            border: 3px solid yellow;
+            align-items: center;
+            border: 3px solid purple;
+            margin-left: auto;
+            margin-right: auto;
        }
 
        .card-testimonial{

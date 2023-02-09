@@ -155,7 +155,7 @@ button.nav-font.font{
       margin-top: 40px;
 }
 .card-testimonial{
-      min-width: 600px;
+      min-width: 400px;
       min-height: 270px;
       background: #F1F3FF;
 
@@ -329,6 +329,39 @@ button.nav-font.font{
 
   .image-service{
       max-width: 100%;
+  }
+
+  /* owl css */
+.owl-nav{
+      display:flex;
+      justify-content: center;
+      gap:20px;
+      margin-top:20px;
+  }
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+      padding:6px 12px !important;
+      border:1px solid #000;
+  }
+  
+  /* swiper css */
+  .carousel-wrapper{
+      overflow: hidden;
+  }
+  .swiper-container {
+      width: 50%;
+      height: 100%;
+      overflow: visible;
+      margin: 0 auto;
+  }
+  .swiper-navigation{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  @media screen and (max-width: 768px) {
+      .swiper-container {
+          width: 80%;
+      }
   }
 
   /* @media only screen and (min-width: 576px) and (max-width:601){

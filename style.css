@@ -69,7 +69,6 @@ button.nav-font.font{
 
 
 .gambar{
-     
      width: 100%;
      border: 3px solid yellow;
       
@@ -338,13 +337,7 @@ button.nav-font.font{
             padding-left: 10px;
         }
 
-      .gambar{
-            margin-top: 24px;
-            display: flex;
-            justify-content: center;
-           
-         
-      }
+     
 
       .section-header{
             margin-top: -50px;
@@ -441,7 +434,6 @@ button.nav-font.font{
 @media only screen and (max-width: 385px){
       .section-info-2 p{
             font-family:  Helvetica, sans-serif;
-            font-size: 16px;
             font-weight: 300;
             display: inline-block;
             margin-left: 5px;
@@ -466,8 +458,46 @@ button.nav-font.font{
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (min-width: 601px) and (max-width :1500px){
       
+      .banner-text{
+            margin-top: 10px;
+            font-size: 36px;
+            font-weight: bold;
+            border: 3px solid orange;
+            
+      }
 
+}
+
+@media only screen and (min-width: 850px) and (max-width :991px){
+      .gambar{
+            display: flex;
+            justify-content: end;
+           
+      }
+      .ukuran_gambar{
+            width: 90%;
+      }
+}
+
+@media only screen and (min-width: 991px) and (max-width :1200px){
+     .gambar{
+      margin-top: 10px;
+      border: 3px solid orangered;
+     }
+     .ukuran_gambar{
+      width: 100%;
+     }
+     .section-info-2 p{
+      font-family:  Helvetica, sans-serif;
+      font-weight: 300;
+      display: inline-block;
+      margin-left: 5px;
+      margin-top: -10px;
+      font-size: 14px;
+      border: 3px solid red;
+
+}   
 }
 

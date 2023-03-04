@@ -366,8 +366,11 @@ button.nav-font.font{
   }
   @media screen and (max-width: 768px) {
       .swiper-container {
-          width: 80%;
-      }
+            width: 80%;
+            height: 100%;
+            overflow: visible;
+            margin: 0 auto;
+        }
   }
 
   @media screen and (max-width:321px) {
@@ -514,6 +517,12 @@ button.nav-font.font{
            
       
       }     
+      .swiper-container {
+            width: 90%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
 }
 
 

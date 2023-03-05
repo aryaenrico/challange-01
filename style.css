@@ -13,6 +13,8 @@
 
 
 
+
+
 .font{  
       font-size: 18px;
 }
@@ -71,9 +73,18 @@ button.nav-font.font{
 
 .gambar{
      width: 100%;
+   
+    
      
       
 }
+.gambar-bg{
+      width: 100%;
+       height: 400px; 
+     
+      
+       
+ }
 .our-section{
       margin-top: 104px;     
 }
@@ -323,6 +334,12 @@ button.nav-font.font{
       align-items: flex-end;
       
   }
+  .container-img{
+      background: url('img/img_car.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 400px;
+  }
 
   .footer-bold p{
       font-weight: 600;
@@ -336,6 +353,27 @@ button.nav-font.font{
   .image-service{
       max-width: 100%;
   }
+
+  /* cars.html */
+  .cars-background{
+    background-color: #ffff;
+  }
+
+  .cars-filter{
+      
+      background-color: #ffff;
+      
+      margin-top: -40px;
+  }
+
+  
+
+  .select-title{
+      color:  #3C3C3C;
+      background-color: #ffff;
+      
+  }
+  
 
   /* owl css */
 .owl-nav{

@@ -39,7 +39,7 @@ button.nav-font.font{
       background-color: #5CB85F;
       color: white;
       width: 140px;
-      height: 36px;
+      height: 40px;
       padding: 8px 12px;
 
 }
@@ -357,6 +357,7 @@ button.nav-font.font{
   /* cars.html */
   .cars-background{
     background-color: #ffff;
+    padding-left: 20px;
   }
 
   .cars-filter{
@@ -366,11 +367,20 @@ button.nav-font.font{
       margin-top: -40px;
   }
 
+  .btn-car-filter{
+      margin-top: 75px;
+  }
+
   
 
   .select-title{
       color:  #3C3C3C;
       background-color: #ffff;
+      font-family: 'Rubik';
+      font-weight: 400;
+      font-size: 20px;
+      margin-top: 24px;
+      
       
   }
   
